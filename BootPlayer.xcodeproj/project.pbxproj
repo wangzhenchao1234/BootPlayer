@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26A32C71E690A5C000EEF35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26A32C61E690A5C000EEF35 /* main.m */; };
+		F26A32CA1E690A5C000EEF35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26A32C91E690A5C000EEF35 /* AppDelegate.m */; };
+		F26A32CD1E690A5C000EEF35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26A32CC1E690A5C000EEF35 /* ViewController.m */; };
+		F26A32D01E690A5C000EEF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26A32CE1E690A5C000EEF35 /* Main.storyboard */; };
+		F26A32D21E690A5C000EEF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26A32D11E690A5C000EEF35 /* Assets.xcassets */; };
+		F26A32D51E690A5C000EEF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26A32D31E690A5C000EEF35 /* LaunchScreen.storyboard */; };
+		F26A32E01E690A5C000EEF35 /* BootPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26A32DF1E690A5C000EEF35 /* BootPlayerTests.m */; };
+		F26A32EB1E690A5C000EEF35 /* BootPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26A32EA1E690A5C000EEF35 /* BootPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26A32DC1E690A5C000EEF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26A32BA1E690A5C000EEF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26A32C11E690A5C000EEF35;
+			remoteInfo = BootPlayer;
+		};
+		F26A32E71E690A5C000EEF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26A32BA1E690A5C000EEF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26A32C11E690A5C000EEF35;
+			remoteInfo = BootPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F26A32C21E690A5C000EEF35 /* BootPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26A32C61E690A5C000EEF35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F26A32C81E690A5C000EEF35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F26A32C91E690A5C000EEF35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F26A32CB1E690A5C000EEF35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F26A32CC1E690A5C000EEF35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F26A32CF1E690A5C000EEF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F26A32D11E690A5C000EEF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26A32D41E690A5C000EEF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F26A32D61E690A5C000EEF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26A32DB1E690A5C000EEF35 /* BootPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26A32DF1E690A5C000EEF35 /* BootPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootPlayerTests.m; sourceTree = "<group>"; };
+		F26A32E11E690A5C000EEF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26A32E61E690A5C000EEF35 /* BootPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26A32EA1E690A5C000EEF35 /* BootPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootPlayerUITests.m; sourceTree = "<group>"; };
+		F26A32EC1E690A5C000EEF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26A32BF1E690A5C000EEF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26A32D81E690A5C000EEF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26A32E31E690A5C000EEF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26A32B91E690A5C000EEF35 = {
+			isa = PBXGroup;
+			children = (
+				F26A32C41E690A5C000EEF35 /* BootPlayer */,
+				F26A32DE1E690A5C000EEF35 /* BootPlayerTests */,
+				F26A32E91E690A5C000EEF35 /* BootPlayerUITests */,
+				F26A32C31E690A5C000EEF35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26A32C31E690A5C000EEF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26A32C21E690A5C000EEF35 /* BootPlayer.app */,
+				F26A32DB1E690A5C000EEF35 /* BootPlayerTests.xctest */,
+				F26A32E61E690A5C000EEF35 /* BootPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26A32C41E690A5C000EEF35 /* BootPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F26A32C81E690A5C000EEF35 /* AppDelegate.h */,
+				F26A32C91E690A5C000EEF35 /* AppDelegate.m */,
+				F26A32CB1E690A5C000EEF35 /* ViewController.h */,
+				F26A32CC1E690A5C000EEF35 /* ViewController.m */,
+				F26A32CE1E690A5C000EEF35 /* Main.storyboard */,
+				F26A32D11E690A5C000EEF35 /* Assets.xcassets */,
+				F26A32D31E690A5C000EEF35 /* LaunchScreen.storyboard */,
+				F26A32D61E690A5C000EEF35 /* Info.plist */,
+				F26A32C51E690A5C000EEF35 /* Supporting Files */,
+			);
+			path = BootPlayer;
+			sourceTree = "<group>";
+		};
+		F26A32C51E690A5C000EEF35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26A32C61E690A5C000EEF35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F26A32DE1E690A5C000EEF35 /* BootPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26A32DF1E690A5C000EEF35 /* BootPlayerTests.m */,
+				F26A32E11E690A5C000EEF35 /* Info.plist */,
+			);
+			path = BootPlayerTests;
+			sourceTree = "<group>";
+		};
+		F26A32E91E690A5C000EEF35 /* BootPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F26A32EA1E690A5C000EEF35 /* BootPlayerUITests.m */,
+				F26A32EC1E690A5C000EEF35 /* Info.plist */,
+			);
+			path = BootPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26A32C11E690A5C000EEF35 /* BootPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26A32EF1E690A5C000EEF35 /* Build configuration list for PBXNativeTarget "BootPlayer" */;
+			buildPhases = (
+				F26A32BE1E690A5C000EEF35 /* Sources */,
+				F26A32BF1E690A5C000EEF35 /* Frameworks */,
+				F26A32C01E690A5C000EEF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BootPlayer;
+			productName = BootPlayer;
+			productReference = F26A32C21E690A5C000EEF35 /* BootPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26A32DA1E690A5C000EEF35 /* BootPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26A32F21E690A5C000EEF35 /* Build configuration list for PBXNativeTarget "BootPlayerTests" */;
+			buildPhases = (
+				F26A32D71E690A5C000EEF35 /* Sources */,
+				F26A32D81E690A5C000EEF35 /* Frameworks */,
+				F26A32D91E690A5C000EEF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26A32DD1E690A5C000EEF35 /* PBXTargetDependency */,
+			);
+			name = BootPlayerTests;
+			productName = BootPlayerTests;
+			productReference = F26A32DB1E690A5C000EEF35 /* BootPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F26A32E51E690A5C000EEF35 /* BootPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26A32F51E690A5C000EEF35 /* Build configuration list for PBXNativeTarget "BootPlayerUITests" */;
+			buildPhases = (
+				F26A32E21E690A5C000EEF35 /* Sources */,
+				F26A32E31E690A5C000EEF35 /* Frameworks */,
+				F26A32E41E690A5C000EEF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26A32E81E690A5C000EEF35 /* PBXTargetDependency */,
+			);
+			name = BootPlayerUITests;
+			productName = BootPlayerUITests;
+			productReference = F26A32E61E690A5C000EEF35 /* BootPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26A32BA1E690A5C000EEF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WZC;
+				TargetAttributes = {
+					F26A32C11E690A5C000EEF35 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F26A32DA1E690A5C000EEF35 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F26A32C11E690A5C000EEF35;
+					};
+					F26A32E51E690A5C000EEF35 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F26A32C11E690A5C000EEF35;
+					};
+				};
+			};
+			buildConfigurationList = F26A32BD1E690A5C000EEF35 /* Build configuration list for PBXProject "BootPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26A32B91E690A5C000EEF35;
+			productRefGroup = F26A32C31E690A5C000EEF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26A32C11E690A5C000EEF35 /* BootPlayer */,
+				F26A32DA1E690A5C000EEF35 /* BootPlayerTests */,
+				F26A32E51E690A5C000EEF35 /* BootPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26A32C01E690A5C000EEF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26A32D51E690A5C000EEF35 /* LaunchScreen.storyboard in Resources */,
+				F26A32D21E690A5C000EEF35 /* Assets.xcassets in Resources */,
+				F26A32D01E690A5C000EEF35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26A32D91E690A5C000EEF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26A32E41E690A5C000EEF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26A32BE1E690A5C000EEF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26A32CD1E690A5C000EEF35 /* ViewController.m in Sources */,
+				F26A32CA1E690A5C000EEF35 /* AppDelegate.m in Sources */,
+				F26A32C71E690A5C000EEF35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26A32D71E690A5C000EEF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26A32E01E690A5C000EEF35 /* BootPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26A32E21E690A5C000EEF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26A32EB1E690A5C000EEF35 /* BootPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26A32DD1E690A5C000EEF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26A32C11E690A5C000EEF35 /* BootPlayer */;
+			targetProxy = F26A32DC1E690A5C000EEF35 /* PBXContainerItemProxy */;
+		};
+		F26A32E81E690A5C000EEF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26A32C11E690A5C000EEF35 /* BootPlayer */;
+			targetProxy = F26A32E71E690A5C000EEF35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F26A32CE1E690A5C000EEF35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26A32CF1E690A5C000EEF35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F26A32D31E690A5C000EEF35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26A32D41E690A5C000EEF35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26A32ED1E690A5C000EEF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F26A32EE1E690A5C000EEF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26A32F01E690A5C000EEF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BootPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZC.BootPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F26A32F11E690A5C000EEF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BootPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZC.BootPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F26A32F31E690A5C000EEF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BootPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZC.BootPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BootPlayer.app/BootPlayer";
+			};
+			name = Debug;
+		};
+		F26A32F41E690A5C000EEF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BootPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZC.BootPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BootPlayer.app/BootPlayer";
+			};
+			name = Release;
+		};
+		F26A32F61E690A5C000EEF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BootPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZC.BootPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BootPlayer;
+			};
+			name = Debug;
+		};
+		F26A32F71E690A5C000EEF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BootPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZC.BootPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BootPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26A32BD1E690A5C000EEF35 /* Build configuration list for PBXProject "BootPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26A32ED1E690A5C000EEF35 /* Debug */,
+				F26A32EE1E690A5C000EEF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26A32EF1E690A5C000EEF35 /* Build configuration list for PBXNativeTarget "BootPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26A32F01E690A5C000EEF35 /* Debug */,
+				F26A32F11E690A5C000EEF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F26A32F21E690A5C000EEF35 /* Build configuration list for PBXNativeTarget "BootPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26A32F31E690A5C000EEF35 /* Debug */,
+				F26A32F41E690A5C000EEF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F26A32F51E690A5C000EEF35 /* Build configuration list for PBXNativeTarget "BootPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26A32F61E690A5C000EEF35 /* Debug */,
+				F26A32F71E690A5C000EEF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26A32BA1E690A5C000EEF35 /* Project object */;
+}
